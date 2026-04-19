@@ -53,7 +53,7 @@ def person_count():
     return n,name_list
 
 
-### Calculate expences per person
+### Calculate expenses per person
 def split():
     for k,v in dict_main.items():
         for k1 , v1 in v.items():
